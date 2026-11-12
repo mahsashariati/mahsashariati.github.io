@@ -82,11 +82,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .js .name:not(.ready) .ch{transform:translateY(112%)}
 .hero-foot{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gutter);align-items:end}
 .portrait{grid-column:1/span 3;max-width:280px}
-.portrait img{width:100%;height:auto;mix-blend-mode:var(--photo-blend);filter:grayscale(1) contrast(1.12) brightness(1.05);transition:filter .6s}
-.portrait:hover img{filter:contrast(1.04) brightness(1.03)}
-:root[data-theme="dark"] .portrait img{filter:grayscale(1) contrast(1.05) brightness(.8)}
-:root[data-theme="dark"] .portrait:hover img{filter:brightness(.88)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .portrait img{filter:grayscale(1) contrast(1.05) brightness(.8)}:root:not([data-theme="light"]) .portrait:hover img{filter:brightness(.88)}}
+.portrait img{width:100%;height:auto;mix-blend-mode:var(--photo-blend);filter:contrast(1.04) brightness(1.05)}
+:root[data-theme="dark"] .portrait img{filter:brightness(.85)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .portrait img{filter:brightness(.85)}}
 .portrait figcaption{margin-top:12px;color:var(--mute)}
 .statement{grid-column:5/span 8;display:grid;gap:clamp(24px,3vw,40px)}
 .statement p.big{font-family:var(--f-display);font-weight:300;font-size:clamp(1.55rem,2.9vw,2.7rem);line-height:1.14;letter-spacing:-.025em;max-width:24ch;text-wrap:balance}
