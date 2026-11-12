@@ -3,8 +3,8 @@
 Persönliche Portfolio-Website (statisch, ohne Build-Schritt): HTML, CSS und etwas Vanilla-JavaScript.
 
 - Zweisprachig (Deutsch / Englisch), Umschalter oben rechts
-- Hell- und Dunkelmodus, respektiert `prefers-color-scheme` und `prefers-reduced-motion`
-- Schriften lokal eingebunden (Fraunces, Inter Tight, JetBrains Mono – SIL Open Font License), keine externen Requests
+- Minimalistisches Design in Papier, Tinte und einem Signal-Orange; Hell- und Dunkelmodus, respektiert `prefers-color-scheme` und `prefers-reduced-motion`
+- Schriften lokal eingebunden (Bricolage Grotesque, Geist, Geist Mono – SIL Open Font License), keine externen Requests
 
 ## Lokal ansehen
 
